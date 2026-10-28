@@ -18,8 +18,12 @@ npm run dev
 
 ## Prototype only — important
 
-The current GitHub source is a **simplified React implementation**, not an exact copy of the earlier downloadable ZIP and not a pixel-perfect clone of the reference site. It uses browser localStorage for registrations and programs. Admin login is demonstration-only (`demo@admin.local` / `Demo123!`) and is **not secure**. Do not use this prototype to collect real participant details or payments on a public server.
+The current GitHub source is a **simplified React implementation**, not an exact copy of the newer downloadable local-demo ZIP and not a pixel-perfect clone of the reference site. Demo registrations, messages, and program edits now use temporary React memory state and reset when the page refreshes. Admin login is demonstration-only (`demo@admin.local` / `Demo123!`) and is **not secure**. Do not use this prototype to collect real participant details or payments on a public server.
 
 For production use, implement Supabase authentication with Row Level Security, server-side authorization, secure payment verification, file storage, email notifications, and privacy controls. Environment variable placeholders are provided in `.env.example`.
 
 The original downloadable ZIP from the conversation remains separate from the code pushed to this repo.
+
+## Local demo testing
+
+Run `npm install` and `npm run dev`, open `/admin`, and use the provided development demo credentials from the login screen. All data changes reset upon refresh. No production database is connected.
