@@ -28,3 +28,5 @@ section.dark{background:#0b2136}
 .modal button:not(.close){background:#c7a368;color:#fff}
 @media(max-width:1050px){header{flex-wrap:wrap}nav{order:3;width:100%;justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}.headerActions{margin-left:auto}}
 @media(max-width:600px){header{padding:12px 4%}.brand{font-size:19px}.headerActions{width:100%;justify-content:flex-end}.headerActions button{padding:9px 12px;font-size:12px}.hero{min-height:590px}.heroInner{padding:38px 6%}.hero h1{font-size:2.7rem}.hero p{font-size:16px}}
+
+.demoRoleButtons{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}.demoRoleButtons button{padding:17px 12px;background:#c7a368;color:#14293d}.demoRoleButtons button:nth-child(2){background:#102d45;color:#fff}.modal details{padding:15px 0;border-top:1px solid #eee}.modal details summary{cursor:pointer;font-weight:700}@media(max-width:450px){.demoRoleButtons{grid-template-columns:1fr}}
